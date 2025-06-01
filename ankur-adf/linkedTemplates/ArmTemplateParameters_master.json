@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ankur-adf"
+		},
+		"PostgreSql aiven_password": {
+			"value": ""
+		},
+		"Shopify1_accessToken": {
+			"value": ""
+		},
+		"adf_adls_connect_accountKey": {
+			"value": ""
+		},
+		"PostgreSql aiven_properties_typeProperties_server": {
+			"value": "pg-ankur-ankurzalavadiya11-65ec.d.aivencloud.com"
+		},
+		"PostgreSql aiven_properties_typeProperties_database": {
+			"value": "defaultdb"
+		},
+		"PostgreSql aiven_properties_typeProperties_username": {
+			"value": "avnadmin"
+		},
+		"RestAPIService_Products_properties_typeProperties_url": {
+			"value": "https://dummyjson.com"
+		},
+		"Shopify1_properties_typeProperties_host": {
+			"value": "grow-men.myshopify.com"
+		},
+		"adf_adls_connect_properties_typeProperties_url": {
+			"value": "https://ankurdataenggstorage.dfs.core.windows.net/"
+		},
+		"pokeapi_ls_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon?limit=20&offset=0"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
