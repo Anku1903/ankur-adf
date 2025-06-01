@@ -1,0 +1,25 @@
+{
+	"name": "dataflow_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adf_adls_connect",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "summary1.csv",
+				"folderPath": "event_summary",
+				"fileSystem": "adf-dest"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

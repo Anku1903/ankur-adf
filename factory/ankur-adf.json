@@ -1,0 +1,9 @@
+{
+	"name": "ankur-adf",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9da6d70a-e158-4800-9c91-bca0ffbf2966",
+		"tenantId": "8bfe621f-22b4-4ca3-9e34-f48721edf813"
+	}
+}

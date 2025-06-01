@@ -1,0 +1,20 @@
+{
+	"name": "products_json_dest",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adf_adls_connect",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "jsonfiles",
+				"fileSystem": "adf-dest"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
