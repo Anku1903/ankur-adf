@@ -1,0 +1,23 @@
+{
+	"name": "shopify_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Shopify1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"current_shopify_table": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "ShopifyObject",
+		"schema": [],
+		"typeProperties": {
+			"tableName": {
+				"value": "@dataset().current_shopify_table",
+				"type": "Expression"
+			}
+		}
+	}
+}
